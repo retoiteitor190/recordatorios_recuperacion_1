@@ -11,7 +11,12 @@ body {
   --custom-border: 1px solid #333;
   --custom-border-radius: 5px;
   --custom-spacing: 5px;
-  
+
+   background-image: url("https://d500.epimg.net/cincodias/imagenes/2021/03/10/lifestyle/1615368649_313875_1615368765_noticia_normal.jpg");
+  background-size: cover;
+  background-repeat: none;
+  min-height: 100vh;  
+
 
   padding: 0;
   margin: 0;
