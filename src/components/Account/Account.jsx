@@ -1,6 +1,6 @@
 import i18next from '../../config/localization/i18n';
 import { useState, useEffect } from 'react';
-import Avatar from "../avatar";
+import Avatar from "../Avatar";
 import { supabase } from '../../config/supabaseClient';
 
 export default function Account({ session }) {
@@ -229,7 +229,7 @@ export default function Account({ session }) {
     return (
         <div className="form-widget">
 
-            <a href='https://github.com/retoiteitor190/recordatorio_tarea_2.git'>GitHub Alejandro Ruiz Moreno</a>
+            <a href='https://github.com/retoiteitor190/recordatorios_recuperacion_1.git'>recuperacion Alejandro</a>
 
             <h1>{i18next.t("title1")}</h1>
 
@@ -282,7 +282,7 @@ export default function Account({ session }) {
                 </button>
             </div>
 
-            <h1>Buscar y Modificar recordatorio</h1>
+            <h1>BUSCAR Y MODIFICAR RECORD</h1>
             <div>
                 <label htmlFor="title">{i18next.t("field4")}</label>
                 <input id="title" type="text" value={title || ''} onChange={(e) => setTitle(e.target.value)} />
@@ -320,7 +320,7 @@ export default function Account({ session }) {
                 {i18next.t("button6")}
             </button>
 
-            <h1>Lista de recordatorios</h1>
+            <h1>LISTA DE RECORDS</h1>
             {listRecords!== null ? listRecords.map((t) => <li key={t.id}> ID: {t.id} Titulo: {t.title} - Contenido: {t.content} - Fecha de recordatorio: {t.reminder} - Fecha de creacion: {t.created_at} -</li>):""}
 
             <div>
