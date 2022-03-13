@@ -308,7 +308,7 @@ export default function Account({ session }) {
             </div>
 
             <button
-                className="button block primary"
+                className="button primary block"
                 onClick={() => insertRecord({ title, content, reminderdate: recordDate })}
             >
                 {recordID !== null && recordID !== "" ? i18next.t("button5v2") : i18next.t("button5")}
