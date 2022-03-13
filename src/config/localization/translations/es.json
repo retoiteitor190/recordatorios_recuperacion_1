@@ -1,0 +1,28 @@
+{
+    "lan":"EN-EU",
+    "menu1":"Inicio",
+    "menu2":"Actualizar Perfil",
+    "title1":"ACTUALIZAR PERFIL",
+    "button1":"Cargar",
+    "field1":"Correo electronico",
+    "field2":"Nombre completo",
+    "field3":"Sitio web",
+    "button2":"Actualizar",
+    "button2v2":"Cargando",
+    "button3":"Cerrar Sesión",
+    "titletable":"Recordatorios",
+    "heaer1":"Título",
+    "header2":"Contenido",
+    "header3":"Fecha de recordatorio",
+    "footertable":"Filas por pagina: ",
+    "padding":"Espaciado denso",
+    "button4":"Buscar",
+    "field4":"Título",
+    "field5":"Contenido",
+    "field6":"Fecha de aviso",
+    "field7":"Fecha de alta",
+    "button5":"Insertar",
+    "button5v2":"Guardar",
+    "button6":"Eliminar"
+
+}
